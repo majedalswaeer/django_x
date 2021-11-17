@@ -1,4 +1,5 @@
-> A batteries-included Django starter project. For a production-ready version see the book [Django for Professionals](https://djangoforprofessionals.com).
+[Django X](https://github.com/majedalswaeer/django_x/tree/django_x)
+- [Check out the pull request](https://github.com/majedalswaeer/django_x/pull/1)
 
 ## 🚀 Features
 
@@ -11,6 +12,7 @@
 - DRY forms with [django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
 
 ![Homepage](homepage.png)
+
 ----
 
 ## Table of Contents
