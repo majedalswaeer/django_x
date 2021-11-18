@@ -1,0 +1,8 @@
+{% extends "_base.html"%}
+
+{% block content %}
+<form method="post" >{% csrf_token %}
+    <p>Are you sure you want to delete "{{ snack.name }}"?</p>
+    <button type="submit" value="Confirm">Delete!</button>
+</form>
+{% endblock %}

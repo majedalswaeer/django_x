@@ -1,0 +1,9 @@
+{% extends "_base.html" %}
+{% load crispy_forms_tags %}
+{% block content%}
+<h3>Create a new Snack!</h3>
+<form method="post" class="uniForm">{% csrf_token %}
+    {{ form|crispy }}
+    <input type="submit" value="Save">
+</form>
+{% endblock %}
